@@ -11,7 +11,7 @@ $(function() {
   }
   $('#listBox2').html(options);
 });
-function selct_district($val)
+function selct_district2($val)
 {
     if($val=='SELECT STATE') {
    var options = '';
