@@ -2,8 +2,7 @@
 
 var handles = ["SELECT STATE", "ANDHRA PRADESH", "ARUNACHAL PRADESH", "ASSAM", "BIHAR", "CHHATTISGARH", "DADRA AND NAGAR HAVELI", "DAMAN AND DIU", "DELHI", "GOA", "GUJARAT", "HARYANA", "HIMACHAL PRADESH", "JAMMU AND KASHMIR", "JHARKHAND", "KARNATAKA",
     "KERALA", "MADHYA PRADESH", "MAHARASHTRA", "MANIPUR", "MEGHALAYA", "MIZORAM", "NAGALAND", "ORISSA", "PUDUCHERRY", "PUNJAB", "RAJASTHAN", "SIKKIM", "TAMIL NADU",
-    "TELANGANA", "TRIPURA", "UTTAR PRADESH", "UTTARAKHAND", "WEST BENGAL"
-];
+    "TELANGANA", "TRIPURA", "UTTAR PRADESH", "UTTARAKHAND", "WEST BENGAL"];
 
 $(function() {
   var options = '';
@@ -18,9 +17,9 @@ function selct_district($val)
    var options = '';
   $('#secondlist').html(options);
   }
- if($val=='Andhra Pradesh') {
-   var andhra = ["Anantapur","Chittoor","East Godavari","Guntur","Krishna","Kurnool","Prakasam","Srikakulam","SriPotti Sri Ramulu Nellore",
-                                    "Vishakhapatnam","Vizianagaram","West Godavari","Cudappah"];
+ if($val=='ANDHRA PRADESH') {
+   var andhra = ["ANANTAPUR","CHITTOOR","EAST GODAVARI","GUNTUR","KRISHNA","KURNOOL","PRAKASAM","SRIKAKULAM","SRIPOTTI SRI RAMULU NELLORE",
+                                    "VISHAKHAPATNAM","VIZIANAGARAM","WEST GODAVARI","CUDAPPAH"];
    $(function() {
   var options = '';
   for (var i = 0; i < andhra.length; i++) {
@@ -30,9 +29,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Arunachal Pradesh') {
-    var ap = ["Anjaw","Changlang","Dibang Valley","East Siang","East Kameng","Kurung Kumey","Lohit","Longding","Lower Dibang Valley","Lower Subansiri","Papum Pare",
-                                        "Tawang","Tirap","Upper Siang","Upper Subansiri","West Kameng","West Siang"];
+  if ($val=='ARUNACHAL PRADESH') {
+    var ap = ["ANJAW","CHANGLANG","DIBANG VALLEY","EAST SIANG","EAST KAMENG","KURUNG KUMEY","LOHIT","LONGDING","LOWER DIBANG VALLEY","LOWER SUBANSIRI","PAPUM PARE",
+                                        "TAWANG","TIRAP","UPPER SIANG","UPPER SUBANSIRI","WEST KAMENG","WEST SIANG"];
    $(function() {
   var options = '';
   for (var i = 0; i < ap.length; i++) {
@@ -42,9 +41,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Assam') {
-    var assam = ["Baksa","Barpeta","Bongaigaon","Cachar","Chirang","Darrang","Dhemaji","Dima Hasao","Dhubri","Dibrugarh","Goalpara","Golaghat","Hailakandi","Jorhat",
-                                     "Kamrup","Kamrup Metropolitan","Karbi Anglong","Karimganj","Kokrajhar","Lakhimpur","Morigaon","Nagaon","Nalbari","Sivasagar","Sonitpur","Tinsukia","Udalguri"];
+  if ($val=='ASSAM') {
+    var assam = ["BAKSA","BARPETA","BONGAIGAON","CACHAR","CHIRANG","DARRANG","DHEMAJI","DIMA HASAO","DHUBRI","DIBRUGARH","GOALPARA","GOLAGHAT","HAILAKANDI","JORHAT",
+                                     "KAMRUP","KAMRUP METROPOLITAN","KARBI ANGLONG","KARIMGANJ","KOKRAJHAR","LAKHIMPUR","MORIGAON","NAGAON","NALBARI","SIVASAGAR","SONITPUR","TINSUKIA","UDALGURI"];
    $(function() {
   var options = '';
   for (var i = 0; i < assam.length; i++) {
@@ -54,10 +53,10 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Bihar') {
-    var bihar = ["Araria","Arwal","Aurangabad","Banka","Begusarai","Bhagalpur","Bhojpur","Buxar","Darbhanga","East Champaran","Gaya","Gopalganj","Jamui","Jehanabad","Kaimur",
-                                        "Katihar","Khagaria","Kishanganj","Lakhisarai","Madhepura","Madhubani","Munger","Muzaffarpur","Nalanda","Nawada","Patna","Purnia","Rohtas","Saharsa",
-                                        "Samastipur","Saran","Sheikhpura","Sheohar","Sitamarhi","Siwan","Supaul","Vaishali","West Champaran"];
+  if ($val=='BIHAR') {
+    var bihar = ["ARARIA","ARWAL","AURANGABAD","BANKA","BEGUSARAI","BHAGALPUR","BHOJPUR","BUXAR","DARBHANGA","EAST CHAMPARAN","GAYA","GOPALGANJ","JAMUI","JEHANABAD","KAIMUR",
+                                        "KATIHAR","KHAGARIA","KISHANGANJ","LAKHISARAI","MADHEPURA","MADHUBANI","MUNGER","MUZAFFARPUR","NALANDA","NAWADA","PATNA","PURNIA","ROHTAS","SAHARSA",
+                                        "SAMASTIPUR","SARAN","SHEIKHPURA","SHEOHAR","SITAMARHI","SIWAN","SUPAUL","VAISHALI","WEST CHAMPARAN"];
    $(function() {
   var options = '';
   for (var i = 0; i < bihar.length; i++) {
@@ -67,9 +66,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Chhattisgarh') {
-    var Chhattisgarh = ["Bastar","Bijapur","Bilaspur","Dantewada","Dhamtari","Durg","Jashpur","Janjgir-Champa","Korba","Koriya","Kanker","Kabirdham (formerly Kawardha)","Mahasamund",
-                                            "Narayanpur","Raigarh","Rajnandgaon","Raipur","Surajpur","Surguja"];
+  if ($val=='CHHATTISGARH') {
+    var Chhattisgarh = ["BASTAR","BIJAPUR","BILASPUR","DANTEWADA","DHAMTARI","DURG","JASHPUR","JANJGIR-CHAMPA","KORBA","KORIYA","KANKER","KABIRDHAM (FORMERLY KAWARDHA)","MAHASAMUND",
+                                            "NARAYANPUR","RAIGARH","RAJNANDGAON","RAIPUR","SURAJPUR","SURGUJA"];
    $(function() {
   var options = '';
   for (var i = 0; i < Chhattisgarh.length; i++) {
@@ -79,8 +78,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Dadra and Nagar Haveli') {
-    var dadra = ["Amal","Silvassa"];
+  if ($val=='DADRA AND NAGAR HAVELI') {
+    var dadra = ["AMAL","SILVASSA"];
    $(function() {
   var options = '';
   for (var i = 0; i < dadra.length; i++) {
@@ -90,8 +89,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Daman and Diu') {
-    var daman = ["Daman","Diu"];
+  if ($val=='DAMAN AND DIU') {
+    var daman = ["DAMAN","DIU"];
    $(function() {
   var options = '';
   for (var i = 0; i < daman.length; i++) {
@@ -101,8 +100,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Delhi') {
-    var delhi = ["Delhi","New Delhi","North Delhi","Noida","Patparganj","Sonabarsa","Tughlakabad"];
+  if ($val=='DELHI') {
+    var delhi = ["DELHI","NEW DELHI","NORTH DELHI","NOIDA","PATPARGANJ","SONABARSA","TUGHLAKABAD"];
    $(function() {
   var options = '';
   for (var i = 0; i < delhi.length; i++) {
@@ -112,8 +111,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Goa') {
-    var goa = ["Chapora","Dabolim","Madgaon","Marmugao (Marmagao)","Panaji Port","Panjim","Pellet Plant Jetty/Shiroda","Talpona","Vasco da Gama"];
+  if ($val=='GOA') {
+    var goa = ["CHAPORA","DABOLIM","MADGAON","MARMUGAO (MARMAGAO)","PANAJI PORT","PANJIM","PELLET PLANT JETTY/SHIRODA","TALPONA","VASCO DA GAMA"];
    $(function() {
   var options = '';
   for (var i = 0; i < goa.length; i++) {
@@ -123,9 +122,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Gujarat') {
-    var gujarat = ["Ahmedabad","Amreli district","Anand","Aravalli","Banaskantha","Bharuch","Bhavnagar","Dahod","Dang","Gandhinagar","Jamnagar","Junagadh",
-                                        "Kutch","Kheda","Mehsana","Narmada","Navsari","Patan","Panchmahal","Porbandar","Rajkot","Sabarkantha","Surendranagar","Surat","Tapi","Vadodara","Valsad"];
+  if ($val=='GUJARAT') {
+    var gujarat = ["AHMEDABAD","AMRELI DISTRICT","ANAND","ARAVALLI","BANASKANTHA","BHARUCH","BHAVNAGAR","DAHOD","DANG","GANDHINAGAR","JAMNAGAR","JUNAGADH",
+                                        "KUTCH","KHEDA","MEHSANA","NARMADA","NAVSARI","PATAN","PANCHMAHAL","PORBANDAR","RAJKOT","SABARKANTHA","SURENDRANAGAR","SURAT","TAPI","VADODARA","VALSAD"];
    $(function() {
   var options = '';
   for (var i = 0; i < gujarat.length; i++) {
@@ -135,9 +134,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Haryana') {
-    var haryana = ["Ambala","Bhiwani","Faridabad","Fatehabad","Gurgaon","Hissar","Jhajjar","Jind","Karnal","Kaithal",
-                                            "Kurukshetra","Mahendragarh","Mewat","Palwal","Panchkula","Panipat","Rewari","Rohtak","Sirsa","Sonipat","Yamuna Nagar"];
+  if ($val=='HARYANA') {
+    var haryana = ["AMBALA","BHIWANI","FARIDABAD","FATEHABAD","GURGAON","HISSAR","JHAJJAR","JIND","KARNAL","KAITHAL",
+                                            "KURUKSHETRA","MAHENDRAGARH","MEWAT","PALWAL","PANCHKULA","PANIPAT","REWARI","ROHTAK","SIRSA","SONIPAT","YAMUNA NAGAR"];
    $(function() {
   var options = '';
   for (var i = 0; i < haryana.length; i++) {
@@ -148,8 +147,8 @@ function selct_district($val)
   }
   
   
-  if ($val=='Himachal Pradesh') {
-    var himachal = ["Baddi","Baitalpur","Chamba","Dharamsala","Hamirpur","Kangra","Kinnaur","Kullu","Lahaul & Spiti","Mandi","Simla","Sirmaur","Solan","Una"];
+  if ($val=='HIMACHAL PRADESH') {
+    var himachal = ["BADDI","BAITALPUR","CHAMBA","DHARAMSALA","HAMIRPUR","KANGRA","KINNAUR","KULLU","LAHAUL & SPITI","MANDI","SIMLA","SIRMAUR","SOLAN","UNA"];
    $(function() {
   var options = '';
   for (var i = 0; i < himachal.length; i++) {
@@ -159,8 +158,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Jammu and Kashmir') {
-    var jammu = ["Jammu","Leh","Rajouri","Srinagar"];
+  if ($val=='JAMMU AND KASHMIR') {
+    var jammu = ["JAMMU","LEH","RAJOURI","SRINAGAR"];
    $(function() {
   var options = '';
   for (var i = 0; i < jammu.length; i++) {
@@ -170,9 +169,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Jharkhand') {
-    var jharkhand = ["Bokaro","Chatra","Deoghar","Dhanbad","Dumka","East Singhbhum","Garhwa","Giridih","Godda","Gumla","Hazaribag","Jamtara","Khunti","Koderma","Latehar","Lohardaga","Pakur","Palamu",
-                                            "Ramgarh","Ranchi","Sahibganj","Seraikela Kharsawan","Simdega","West Singhbhum"];
+  if ($val=='JHARKHAND') {
+    var jharkhand = ["BOKARO","CHATRA","DEOGHAR","DHANBAD","DUMKA","EAST SINGHBHUM","GARHWA","GIRIDIH","GODDA","GUMLA","HAZARIBAG","JAMTARA","KHUNTI","KODERMA","LATEHAR","LOHARDAGA","PAKUR","PALAMU",
+                                            "RAMGARH","RANCHI","SAHIBGANJ","SERAIKELA KHARSAWAN","SIMDEGA","WEST SINGHBHUM"];
    $(function() {
   var options = '';
   for (var i = 0; i < jharkhand.length; i++) {
@@ -182,10 +181,10 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Karnataka') {
-    var karnataka = ["Bagalkot","Bangalore","Bangalore Urban","Belgaum","Bellary","Bidar","Bijapur","Chamarajnagar", "Chikkamagaluru","Chikkaballapur",
-                                           "Chitradurga","Davanagere","Dharwad","Dakshina Kannada","Gadag","Gulbarga","Hassan","Haveri district","Kodagu",
-                                           "Kolar","Koppal","Mandya","Mysore","Raichur","Shimoga","Tumkur","Udupi","Uttara Kannada","Ramanagara","Yadgir"];
+  if ($val=='KARNATAKA') {
+    var karnataka = ["BAGALKOT","BANGALORE","BANGALORE URBAN","BELGAUM","BELLARY","BIDAR","BIJAPUR","CHAMARAJNAGAR", "CHIKKAMAGALURU","CHIKKABALLAPUR",
+                                           "CHITRADURGA","DAVANAGERE","DHARWAD","DAKSHINA KANNADA","GADAG","GULBARGA","HASSAN","HAVERI DISTRICT","KODAGU",
+                                           "KOLAR","KOPPAL","MANDYA","MYSORE","RAICHUR","SHIMOGA","TUMKUR","UDUPI","UTTARA KANNADA","RAMANAGARA","YADGIR"];
    $(function() {
   var options = '';
   for (var i = 0; i < karnataka.length; i++) {
@@ -195,8 +194,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Kerala') {
-    var kerala = ["Alappuzha","Ernakulam","Idukki","Kannur","Kasaragod","Kollam","Kottayam","Kozhikode","Malappuram","Palakkad","Pathanamthitta","Thrissur","Thiruvananthapuram","Wayanad"];
+  if ($val=='KERALA') {
+    var kerala = ["ALAPPUZHA","ERNAKULAM","IDUKKI","KANNUR","KASARAGOD","KOLLAM","KOTTAYAM","KOZHIKODE","MALAPPURAM","PALAKKAD","PATHANAMTHITTA","THRISSUR","THIRUVANANTHAPURAM","WAYANAD"];
    $(function() {
   var options = '';
   for (var i = 0; i < kerala.length; i++) {
@@ -206,10 +205,10 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Madhya Pradesh') {
-    var mp = ["Alirajpur","Anuppur","Ashoknagar","Balaghat","Barwani","Betul","Bhilai","Bhind","Bhopal","Burhanpur","Chhatarpur","Chhindwara","Damoh","Dewas","Dhar","Guna","Gwalior","Hoshangabad",
-                                    "Indore","Itarsi","Jabalpur","Khajuraho","Khandwa","Khargone","Malanpur","Malanpuri (Gwalior)","Mandla","Mandsaur","Morena","Narsinghpur","Neemuch","Panna","Pithampur","Raipur","Raisen","Ratlam",
-                                    "Rewa","Sagar","Satna","Sehore","Seoni","Shahdol","Singrauli","Ujjain"];
+  if ($val=='MADHYA PRADESH') {
+    var mp = ["ALIRAJPUR","ANUPPUR","ASHOKNAGAR","BALAGHAT","BARWANI","BETUL","BHILAI","BHIND","BHOPAL","BURHANPUR","CHHATARPUR","CHHINDWARA","DAMOH","DEWAS","DHAR","GUNA","GWALIOR","HOSHANGABAD",
+                                    "INDORE","ITARSI","JABALPUR","KHAJURAHO","KHANDWA","KHARGONE","MALANPUR","MALANPURI (GWALIOR)","MANDLA","MANDSAUR","MORENA","NARSINGHPUR","NEEMUCH","PANNA","PITHAMPUR","RAIPUR","RAISEN","RATLAM",
+                                    "REWA","SAGAR","SATNA","SEHORE","SEONI","SHAHDOL","SINGRAULI","UJJAIN"];
    $(function() {
   var options = '';
   for (var i = 0; i < mp.length; i++) {
@@ -219,11 +218,11 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Maharashtra') {
-    var maharashtra = ["Ahmednagar","Akola","Alibag","Amaravati","Arnala","Aurangabad","Aurangabad","Bandra","Bassain","Belapur","Bhiwandi","Bhusaval","Borliai-Mandla","Chandrapur","Dahanu","Daulatabad","Dighi (Pune)","Dombivali","Goa","Jaitapur","Jalgaon",
-                                             "Jawaharlal Nehru (Nhava Sheva)","Kalyan","Karanja","Kelwa","Khopoli","Kolhapur","Lonavale","Malegaon","Malwan","Manori",
-                                             "Mira Bhayandar","Miraj","Mumbai (ex Bombay)","Murad","Nagapur","Nagpur","Nalasopara","Nanded","Nandgaon","Nasik","Navi Mumbai","Nhave","Osmanabad","Palghar",
-                                             "Panvel","Pimpri","Pune","Ratnagiri","Sholapur","Shrirampur","Shriwardhan","Tarapur","Thana","Thane","Trombay","Varsova","Vengurla","Virar","Wada"];
+  if ($val=='MAHARASHTRA') {
+    var maharashtra = ["AHMEDNAGAR","AKOLA","ALIBAG","AMARAVATI","ARNALA","AURANGABAD","AURANGABAD","BANDRA","BASSAIN","BELAPUR","BHIWANDI","BHUSAVAL","BORLIAI-MANDLA","CHANDRAPUR","DAHANU","DAULATABAD","DIGHI (PUNE)","DOMBIVALI","GOA","JAITAPUR","JALGAON",
+                                             "JAWAHARLAL NEHRU (NHAVA SHEVA)","KALYAN","KARANJA","KELWA","KHOPOLI","KOLHAPUR","LONAVALE","MALEGAON","MALWAN","MANORI",
+                                             "MIRA BHAYANDAR","MIRAJ","MUMBAI (EX BOMBAY)","MURAD","NAGAPUR","NAGPUR","NALASOPARA","NANDED","NANDGAON","NASIK","NAVI MUMBAI","NHAVE","OSMANABAD","PALGHAR",
+                                             "PANVEL","PIMPRI","PUNE","RATNAGIRI","SHOLAPUR","SHRIRAMPUR","SHRIWARDHAN","TARAPUR","THANA","THANE","TROMBAY","VARSOVA","VENGURLA","VIRAR","WADA"];
    $(function() {
   var options = '';
   for (var i = 0; i < maharashtra.length; i++) {
@@ -233,8 +232,8 @@ function selct_district($val)
   });
   }
   
-   if ($val=='Manipur') {
-    var manipur = ["Bishnupur","Churachandpur","Chandel","Imphal East","Senapati","Tamenglong","Thoubal","Ukhrul","Imphal West"];
+   if ($val=='MANIPUR') {
+    var manipur = ["BISHNUPUR","CHURACHANDPUR","CHANDEL","IMPHAL EAST","SENAPATI","TAMENGLONG","THOUBAL","UKHRUL","IMPHAL WEST"];
    $(function() {
   var options = '';
   for (var i = 0; i < manipur.length; i++) {
@@ -244,8 +243,8 @@ function selct_district($val)
   });
   }
   
-   if ($val=='Meghalaya') {
-    var meghalaya = ["Baghamara","Balet","Barsora","Bolanganj","Dalu","Dawki","Ghasuapara","Mahendraganj","Moreh","Ryngku","Shella Bazar","Shillong"];
+   if ($val=='MEGHALAYA') {
+    var meghalaya = ["BAGHAMARA","BALET","BARSORA","BOLANGANJ","DALU","DAWKI","GHASUAPARA","MAHENDRAGANJ","MOREH","RYNGKU","SHELLA BAZAR","SHILLONG"];
    $(function() {
   var options = '';
   for (var i = 0; i < meghalaya.length; i++) {
@@ -255,8 +254,8 @@ function selct_district($val)
   });
   }
   
-   if ($val=='Mizoram') {
-    var mizoram = ["Aizawl","Champhai","Kolasib","Lawngtlai","Lunglei","Mamit","Saiha","Serchhip"];
+   if ($val=='MIZORAM') {
+    var mizoram = ["AIZAWL","CHAMPHAI","KOLASIB","LAWNGTLAI","LUNGLEI","MAMIT","SAIHA","SERCHHIP"];
    $(function() {
   var options = '';
   for (var i = 0; i < mizoram.length; i++) {
@@ -266,8 +265,8 @@ function selct_district($val)
   });
   }
   
-   if ($val=='Nagaland') {
-    var nagaland = ["Dimapur","Kiphire","Kohima","Longleng","Mokokchung","Mon","Peren","Phek","Tuensang","Wokha","Zunheboto"];
+   if ($val=='NAGALAND') {
+    var nagaland = ["DIMAPUR","KIPHIRE","KOHIMA","LONGLENG","MOKOKCHUNG","MON","PEREN","PHEK","TUENSANG","WOKHA","ZUNHEBOTO"];
    $(function() {
   var options = '';
   for (var i = 0; i < nagaland.length; i++) {
@@ -277,8 +276,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Orissa') {
-    var orissa = ["Bahabal Pur","Bhubaneswar","Chandbali","Gopalpur","Jeypore","Paradip Garh","Puri","Rourkela"];
+  if ($val=='ORISSA') {
+    var orissa = ["BAHABAL PUR","BHUBANESWAR","CHANDBALI","GOPALPUR","JEYPORE","PARADIP GARH","PURI","ROURKELA"];
    $(function() {
   var options = '';
   for (var i = 0; i < orissa.length; i++) {
@@ -288,8 +287,8 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Puducherry') {
-    var puducherry = ["Karaikal","Mahe","Pondicherry","Yanam"];
+  if ($val=='PUDUCHERRY') {
+    var puducherry = ["KARAIKAL","MAHE","PONDICHERRY","YANAM"];
    $(function() {
   var options = '';
   for (var i = 0; i < puducherry.length; i++) {
@@ -299,9 +298,9 @@ function selct_district($val)
   });
   }
   
-  if ($val=='Punjab') {
-    var punjab = ["Amritsar","Barnala","Bathinda","Firozpur","Faridkot","Fatehgarh Sahib","Fazilka","Gurdaspur","Hoshiarpur","Jalandhar","Kapurthala","Ludhiana","Mansa","Moga","Sri Muktsar Sahib","Pathankot",
-                                        "Patiala","Rupnagar","Ajitgarh (Mohali)","Sangrur","Shahid Bhagat Singh Nagar","Tarn Taran"];
+  if ($val=='PUNJAB') {
+    var punjab = ["AMRITSAR","BARNALA","BATHINDA","FIROZPUR","FARIDKOT","FATEHGARH SAHIB","FAZILKA","GURDASPUR","HOSHIARPUR","JALANDHAR","KAPURTHALA","LUDHIANA","MANSA","MOGA","SRI MUKTSAR SAHIB","PATHANKOT",
+                                        "PATIALA","RUPNAGAR","AJITGARH (MOHALI)","SANGRUR","SHAHID BHAGAT SINGH NAGAR","TARN TARAN"];
    $(function() {
   var options = '';
   for (var i = 0; i < punjab.length; i++) {
